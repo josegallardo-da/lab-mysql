@@ -111,6 +111,9 @@ For your convenience, we provide you some example dummy data. These dummy data m
 | 1 | 731166526 | 31-12-2018 | 3 | 0 | 5 |
 | 2 | 271135104 | 22-01-2019 | 2 | 2 | 7 |
 
+-nota: en sql los indices inician desde 1, por lo que se ajustaron los valores de la tabla de invoices
+a los indices marcados en sql-
+
 ## Bonus Challenge - Updating and Deleting Database Records
 
 Now you find an error you need to fix in your existing data - in the Salespersons table, you mistakenly spelled *Miami* as *Mimia* for Paige Turner. Also, you received the email addresses of the three customers:
@@ -164,3 +167,5 @@ In addition, you also find a duplicated car entry for VIN `DAM41UDN3CHU2WVF6`. Y
 [MySQL Reference: UPDATE Syntax](https://dev.mysql.com/doc/refman/8.0/en/update.html)
 
 [MySQL Reference: DELETE Syntax](https://dev.mysql.com/doc/refman/8.0/en/delete.html)
+
+[Website App For Database Design](https://dbdiagram.io/)
